@@ -1,0 +1,165 @@
+
+body{
+    background-color:#242323;
+    
+    
+}
+
+.container{   
+    justify-content: center; 
+    padding-top:30px ;
+}
+
+.center{
+  
+  display: grid;
+    justify-content: center;
+}
+.head{
+  
+    display: grid;
+    
+      justify-content: center;
+      padding-bottom: 30px;
+  }
+
+.form-control{
+    
+    background-color:#242323 ;
+    color: cornsilk;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width:400px;
+    
+}
+.submit{
+    background-color:#e0c280 ;
+    color: white;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    display: grid;
+    
+}
+.sub{
+    display: grid;
+    justify-content: center;
+}
+.brand{
+    color: cornsilk;
+    width: 125px;
+    background-color: black;
+    font-style: italic;
+    margin: auto;
+    padding-left:15px;
+    z-index: -1;
+   
+    
+}
+.logo{
+    font-size: 35px;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    margin-left: 10px;
+    width: 80px;  
+    background-color: cornsilk;
+    margin-bottom:-1px;
+    
+
+}
+
+.display{
+    width: fit-content;
+    margin: auto;
+
+}
+
+
+@media only screen and  (max-width: 448px)  {
+ 
+    .form-control{
+        
+      background-color:#242323 ;
+      color: cornsilk;
+      border: 1px solid #e0c280;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 5px;
+      width:300px;
+      
+    }
+    }
+  
+@media only screen and  (max-width: 360px)  {
+ 
+  .form-control{
+      
+    background-color:#242323 ;
+    color: cornsilk;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width:300px;
+    
+  }
+  }
+
+  
+@media only screen and  (max-width: 347px)  {
+    
+  .form-control{
+      
+    background-color:#242323 ;
+    color: cornsilk;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width:250px;
+    
+  }
+    
+  
+  }
+  @media only screen and  (max-width: 327px)  {
+    
+  .form-control{
+      
+    background-color:#242323 ;
+    color: cornsilk;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width:200px;
+    
+  }
+  .sub{
+    justify-content: left
+}
+  }
+  @media only screen and  (max-width: 313px)  {
+     
+  .form-control{
+      
+    background-color:#242323 ;
+    color: cornsilk;
+    border: 1px solid #e0c280;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width:200px;
+    
+  }
+    .sub{
+        justify-content: left
+    }
+  }
